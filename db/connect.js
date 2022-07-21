@@ -1,6 +1,4 @@
 const mongoose = require("mongoose");
-const connectionString =
-	"mongodb+srv://sithu-strange:xNDy5Le64elcxo6z@cluster0.pnftnmb.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority";
 
 const connectDB = (url) => {
 	// in version 6 mongoose, no need to use {} to specify the options to remove the deprecation warning.
